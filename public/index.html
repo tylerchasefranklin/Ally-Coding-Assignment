@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>URBank</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.4.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.4.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.4.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.4.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.4.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+  </head>
+  <body>
+      <header>
+        <nav class="nav">
+          <img  class="icon" src="images/urbank.png" alt="">
+          <ul class="nav__list">
+            <li class="nav__list__item"><a href="#">home</a></li>
+            <li class="nav__list__item"><a href="#">employee</a></li>
+            <li class="nav__list__item active"><a href="#">company</a></li>
+            <li class="nav__list__item"><a href="#">services</a></li>
+            <li class="nav__list__item last"><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="container">
+      <div class="row">
+        <div class="left-column">
+          <h1>Best Bank Ever!</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="reasons">
+            <h3><strong>Reasons We're Awesome:</strong></h3>
+            <ul>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Aliquam tincidunt mauris eu risus.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Vestibulum auctor dapibus neque.</li>
+            </ul>
+          </div>
+          <div class="middle-info">
+            <div class="middle-text">
+              <h3 class="middle-header">Amazing Mobile Info</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+              <div class="iphone">
+                <img src="images/iphone.png" alt="">
+              </div>
+            </div>
+            <div class="rates-section">
+              <div class="">
+                <span class="rates">Rates</span><span class="check">Check them out.</span>
+              </div>
+              <div class="rate-table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Annual Percentage Yield</th>
+                      <th>Est. Earnings for 1 Year*</th>
+                    </tr>
+                  </thead>
+                  <tbody class="js-rowdata">
+                    <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                      <th>*Based on $50,000 deposit</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="button-group">
+            <button class="login-btn" type="button" name="button">Login</button>
+          </div>
+          <div class="tabs">
+            <div class="tabBox">
+              <ul class="tabs">
+                <li class="tab"><a href="#tab1">News</a></li>
+                <li class="tab"><a href="#tab2">Archive</a></li>
+              </ul>
+              <div class="tabContainer">
+                <div id="tab1" class="tabContent">
+                  <h3>Lorem Ipsum</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <br>
+                  <h3>Lorem Ipsum</h3>
+                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <br>
+                  <h3>Lorem Ipsum</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+                <div id="tab2" class="tabContent">
+                  <h3>Lorem Ipsum</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <br>
+                  <h3>Lorem Ipsum</h3>
+                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  <br>
+                  <h3>Lorem Ipsum</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <nav class="nav navbar-bottom">
+          <span class="copyright">&#9400;  2014 URBank</span>
+          <ul class="nav__list">
+            <li class="nav__list__item"><a href="#">home</a></li>
+            <li class="nav__list__item"><a href="#">employee</a></li>
+            <li class="nav__list__item"><a href="#">company</a></li>
+            <li class="nav__list__item"><a href="#">services</a></li>
+            <li class="nav__list__item last"><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <div class="modal">
+        <div class="pop">
+          <img class="x-icon" src="images/times.png" alt="">
+          <div class="login">
+        		<div class="login-screen">
+        			<div class="app-title">
+        				<h1>Sign In To Your Account</h1>
+        			</div>
+        			<div class="login-form">
+        				<div class="control-group">
+        				<input type="text" class="login-field" value="" placeholder="username" id="login-name">
+        				<label class="login-field-icon fui-user" for="login-name"></label>
+        				</div>
+        				<div class="control-group">
+        				<input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+        				<label class="login-field-icon fui-lock" for="login-pass"></label>
+        				</div>
+        				<a class="btn btn-primary btn-large btn-block" href="#">login</a>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+      </div>
+
+
+  </body>
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="main.js" type="text/javascript"></script>
+</html>

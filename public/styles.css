@@ -1,0 +1,448 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font: 13px/1.5 helvetica, arial, san-serif;
+  height: 100%;
+}
+
+.nav {
+  display: inline-block;
+  width: 100%;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  margin-right: 10%;
+  float: right;
+  height: inherit;
+}
+.nav__list a {
+  padding: .75em 1.5em;
+  transition: all .25s ease-in-out;
+}
+
+
+.nav__list__item,
+.nav__list__item a {
+  display: block;
+}
+
+.icon {
+  margin-left: 5%;
+}
+
+.container {
+  margin: auto;
+  padding: 5em 5em;
+  height: 100%;
+}
+
+.row {
+  margin: auto;
+}
+
+.left-column {
+  float: left;
+  width: 73%;
+}
+
+.reasons {
+  margin-top: 3em;
+}
+
+.reasons li {
+  line-height: 2;
+}
+
+.right-column {
+  float: right;
+  width: 23%;
+}
+
+.login-btn {
+  width: 100%;
+  color:white;cursor:pointer;
+  border: 2px solid transparent;
+  background-color: rgb(92, 19, 93);
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  margin: 0 auto;
+}
+
+.middle-info {
+  background-color: rgb(192, 215, 197);
+  margin-top: 3em;
+}
+
+.middle-text {
+  width: 75%;
+  padding: 2em 2em;
+}
+
+.middle-header {
+  color: rgb(92, 19, 93);
+}
+
+.iphone {
+  width: 25%;
+  float: right;
+  z-index: 1;
+  transform: translateY(-110%);
+}
+
+.iphone img {
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+}
+
+.rates-section {
+  margin-top: 10em;
+}
+
+.rates {
+  border-right: solid 1px black;
+  padding-top: 2em;
+  padding-right: 1em;
+  padding-bottom: 2em;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.check {
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-bottom: 2em;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.rate-table {
+  padding-top: 5em;
+}
+
+.navbar-bottom {
+  height: 100px;
+  background-color: rgb(231, 232, 234);
+}
+
+.tabs {
+  margin-top: 2em;
+}
+
+div.tabBox {
+  width:99.9%;
+  float:left;
+  overflow: visible;
+}
+
+div.tabBox h3 {
+  padding:20px 0px;
+}
+
+ul.tabs {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 32px;
+  width:99.9%;
+}
+
+ul.tabs li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: -1px;
+  overflow: hidden;
+  position: relative;
+}
+
+ul.tabs li a {
+  display: block;
+  padding: 0 5px;
+  outline: none;
+  background:none;
+}
+
+.tabContainer {
+  border-top: none;
+  overflow: hidden;
+  clear: both;
+  float: left;
+  width:99.9%;
+  min-height:300px;
+  margin-bottom:10px;
+}
+
+.tabContent {
+  background-color: rgb(245, 245, 245);
+  padding: 20px;
+}
+
+.tabContent h3 {
+  padding:0px;
+}
+
+
+ul.tabs {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-top-left-radius:5px;
+  -moz-border-top-left-radius:5px;
+  -webkit-border-top-left-radius:5px;
+}
+
+ul.tabs li a {
+  background-color: rgb(224, 234, 226);
+  text-decoration: none;
+  font-size: 11px;
+  color: #000;
+  outline: none;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-top-left-radius:5px;
+  -moz-border-top-left-radius:5px;
+  -webkit-border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  -moz-border-top-right-radius:5px;
+  -webkit-border-top-right-radius:5px;
+}
+
+ul.tabs li a:hover {
+  background: #eee;
+}
+
+ul.tabs li.active {
+  border-bottom:1px solid #fff;
+}
+
+ul.tabs li.active a, ul.tabs li.active a:hover  {
+  background-color: rgb(245, 245, 245);
+}
+
+div.tabContainer {
+  border-bottom:1px solid #ccc;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+  background-color: rgb(245, 245, 245);
+}
+
+@media only screen and (max-width: 767px) {
+
+div.tabBox {
+  border: 1px solid #ccc;
+}
+
+ul.tabs {
+  height: auto;
+  display: block;
+  width:100%;
+  border-left:0px;
+}
+
+ul.tabs li {
+  width:100%;
+}
+
+ul.tabs li a {
+  border-top-left-radius:0px;
+  -moz-border-top-left-radius:0px;
+  -webkit-border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  -moz-border-top-right-radius:0px;
+  -webkit-border-top-right-radius:0px;
+  border:0px;
+}
+
+div.tabContainer {
+  border: 0px;
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+  .nav__list > .nav__list__item,
+  .nav__list__item img,
+  .nav__list > .nav__list__item a {
+      display: inline-block;
+      float: none;
+  }
+}
+
+.nav {
+  background-color: rgb(75, 142, 189);
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav a:hover, .nav a:active, .nav a:focus {
+  background-color: rgb(41, 104, 149);
+  color: #fff;
+  font-weight: bold;
+  height: 22px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index:9999;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal .pop {
+  top: 20%;
+  left: 50%;
+  width: 400px;
+  left: calc(50% - 200px);
+  position: absolute;
+  padding: 2em;
+  background: white;
+  color: black;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  border: none;
+  text-align: right;
+  width: 100%;
+}
+
+tr {
+  height: 5em;
+}
+
+td {
+  padding: 2em;
+}
+
+th {
+  font-weight: 100;
+}
+
+.odd {
+  background-color: rgb(239, 245, 239);
+}
+
+.even {
+  background-color: rgb(224,234,226);
+}
+
+.login {
+margin: 20px auto;
+width: 300px;
+}
+.login-screen {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+.bank-name {
+  text-align: center;
+}
+
+table > tbody > tr:first-child {
+  font-weight: bold;
+}
+
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  background-color: rgb(92, 19, 93);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+	margin-top: 12px;
+}
+
+.x-icon {
+  float: right;
+}
+
+.tab {
+  width: 10em;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 10px;
+  margin-left: 10%;
+  display: inline-block;
+}
